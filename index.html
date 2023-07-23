@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/normalize.css" >
+    <link rel="stylesheet" href="/styles.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Fullstack-UTN</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1><i class="fa-solid fa-code" style="color: #1a4115;"></i> Tarea Unidad 3 HTML <i class="fa-solid fa-code" style="color: #1a4115;"></i></h1>
+            <h2>Pablo Romero</h2>
+        </div>
+    </header>
+    <main class="container">
+        <section>
+            <div id="container_img">
+                <img src="/imagenes/WhatsApp Image 2023-06-26 at 19.53.22.jpeg" alt="imagen principal">
+            </div>
+        </section>
+        <br>
+        <section>
+            <div class="info">
+                <div>
+                    <h3>Información personal</h3>                    
+                </div>
+                <br>
+                <div>
+                    <span class="underline">Edad:</span>
+                    <span>41 años</span>
+                </div>
+                <br>
+                <div>
+                    <span class="underline">Domicilio:</span>
+                    <span> Alem 2100 Avellaneda-Dock Sud</span>
+                </div>
+                <br>
+                <div>
+                    <span class="underline">Las series que me gustan son:</span>
+                    <ul>
+                        <li>Stranger things</li>
+                        <li>The walking dead</li>
+                        <li>Breaking bad</li>
+                    </ul>
+                </div>
+                <br>
+                <div>
+                    <span class="underline">Las peliculas que mas me gustaron son:</span>
+                    <ul>
+                        <li>En busca de la felicidad</li>
+                        <li>Hombre en llamas</li>
+                        <li>Historias cruzadas</li>
+                    </ul>
+                </div>
+                <br>
+                <div>
+                    <span class="underline">Perfil</span>
+                    <p>Trabajo en relación de dependencia en un casino</p>
+                    <p>Realizé varios cursos que me permitieron adquirir conocimientos básicos en HTML-CSS-JAVASCRIPT y
+                        todo lo aplicado al desarrollo web</p>
+                    <p>Disfruto mucho el tiempo que puedo pasar con mi familia, salir a pasear y despejar un poco la
+                        cabeza de la rutina</p>
+                    <p>No me gustan los espacios muy concurridos</p>
+                    <p>Si quieres contactarme puedes visitar mi <a href="#">página</a> o completa
+                        el siguiente formulario y me comunicaré contigo a la brevedad</p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="form_section">
+            <div class="formularios">
+                <form>
+                    <p>
+                        <label for="nombre">Nombre  <i class="fa-regular fa-address-card" style="color: #487a49;"></i></label>
+                        <input type="text" id="nombre" name="nombre" placeholder="...">
+                    </p>
+                    <p>
+                        <label for="nombre">Apellido  <i class="fa-regular fa-address-card" style="color: #487a49;"></i></label>
+                        <input type="text" id="apellido" name="apellido" placeholder="...">
+                    </p>
+                    <p>
+                        <label for="email">Email  <i class="fa-regular fa-envelope" style="color: #487a49;"></i></label>
+                        <input type="email" id="email" name="email" placeholder="...">
+                    </p>
+                    <p>
+                        <label for="telefono">Teléfono  <i class="fa-solid fa-mobile-retro" style="color: #487a49;"></i></label>
+                        <input type="tel" name="telefono" placeholder="...">
+                    </p>
+                    <p>
+                        <label for="comentarios">Comentarios</label>
+                        <textarea name="comentarios" cols="25" rows="5"></textarea>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar formulario" />
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>    
+</body>
+
+</html>
